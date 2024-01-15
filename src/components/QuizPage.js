@@ -1,10 +1,12 @@
 import "./QuizPage.css";
 
-function QuizPage() {
-  // hook up restful routes
+import QuizButton from "./UI/Quiz/QuizButton";
+
+function QuizPage({ recipes }) {
   return (
     <div className="QuizPage_Container">
-      <h1>hi</h1>
+      <h1>hi from quiz</h1>
+      <QuizButton />
     </div>
   );
 }
