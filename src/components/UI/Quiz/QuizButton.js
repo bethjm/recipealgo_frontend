@@ -4,7 +4,9 @@ function QuizButton() {
   return (
     <div className="QuizButton">
       <div className="QuizButton_Container">
-        <h4>Submit</h4>
+        <div className="text_container">
+          <h4>Submit</h4>
+        </div>
       </div>
     </div>
   );

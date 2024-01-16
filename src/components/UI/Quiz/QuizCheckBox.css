@@ -7,7 +7,7 @@
 }
 
 .QuizCheckBox .QuizCheckBox_Container {
-  width: 80%;
+  width: 100%;
   height: 100%;
 }
 
@@ -15,12 +15,11 @@
   width: 100%;
   height: 100%;
   background-color: #262626;
-  border-radius: 14px;
+  border-radius: 10px;
   border-style: solid;
   border-color: #373737;
   border-width: 3px;
   line-height: 0.5rem;
-  padding-left: 0.5rem;
 }
 
 .QuizCheckBox .text_container h3 {
