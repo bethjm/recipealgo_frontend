@@ -1,0 +1,11 @@
+.QuizPage {
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.QuizPage .QuizPage_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
