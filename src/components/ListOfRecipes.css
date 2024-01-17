@@ -1,0 +1,30 @@
+.ListOfRecipes {
+  background-color: #ecadcb;
+  height: 100%;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.ListOfRecipes .ListOfRecipes_Container h1 {
+  text-align: center;
+}
+
+.ListOfRecipes .cards_container {
+  width: 100%;
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .ListOfRecipes .cards_container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ListOfRecipes .cards_container {
+    grid-template-columns: auto;
+  }
+}

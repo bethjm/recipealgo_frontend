@@ -1,0 +1,19 @@
+.RecipeCard {
+  background-color: #faebf2;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.RecipeCard:hover {
+  width: 21rem;
+  height: 21rem;
+}
+
+.RecipeCard .RecipeCard_Container {
+  width: 70%;
+}

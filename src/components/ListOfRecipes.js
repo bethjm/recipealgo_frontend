@@ -1,10 +1,18 @@
 import "./ListOfRecipes.css";
 
+import RecipeCard from "./UI/Recipes/RecipeCard";
+
 function ListOfRecipes() {
-  // hook up restful routes
   return (
-    <div className="ListOfRecipes_Container">
-      <h1>hi</h1>
+    <div className="ListOfRecipes">
+      <div className="ListOfRecipes_Container">
+        <h1>Recipes based on your search</h1>
+        <div className="cards_container">
+          <RecipeCard />
+          <RecipeCard />
+          <RecipeCard />
+        </div>
+      </div>
     </div>
   );
 }

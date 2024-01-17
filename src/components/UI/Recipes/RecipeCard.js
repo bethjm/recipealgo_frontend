@@ -1,10 +1,17 @@
 import "./RecipeCard.css";
 
+import RecipeHeader from "./RecipeHeader";
+import RecipeIngredients from "./RecipeIngredients";
+import RecipeOther from "./RecipeOther";
+
 function RecipeCard() {
-  // hook up restful routes
   return (
-    <div className="RecipeCard_Container">
-      <h1>hi</h1>
+    <div className="RecipeCard">
+      <div className="RecipeCard_Container">
+        <RecipeHeader />
+        <RecipeOther />
+        <RecipeIngredients />
+      </div>
     </div>
   );
 }
