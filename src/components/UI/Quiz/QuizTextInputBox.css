@@ -12,14 +12,14 @@
 
 .QuizTextInputBox Input {
   /* padding-left: 0.5rem; */
-  color: white;
+  color: black;
   height: 2.6rem;
   width: 100%;
   line-height: 1rem;
-  background-color: #262626;
+  background-color: #faebf2;
   border-radius: 10px;
   border-style: solid;
-  border-color: #373737;
+  border-color: #d0337e;
   border-width: 3px;
   font-size: 1.2rem;
   font-weight: bold;
