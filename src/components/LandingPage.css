@@ -1,0 +1,12 @@
+.LandingPage {
+  background-color: #ecadcb;
+  height: 100vh;
+}
+
+.LandingPage .LandingPage_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}

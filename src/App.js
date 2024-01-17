@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import QuizPage from "./components/QuizPage";
 import ListOfRecipes from "./components/ListOfRecipes";
 import ReadRecipe from "./components/ReadRecipe";
+import LandingPage from "./components/LandingPage";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -46,7 +47,8 @@ function App() {
           <Link to="/">Quiz</Link>
         </nav>
         <Routes>
-          <Route path="/" element={<QuizPage />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/quiz" element={<QuizPage />} />
           <Route path="/recipes" element={<ListOfRecipes />} />
           <Route path="/readrecipe/" element={<ReadRecipe />} />
         </Routes>
