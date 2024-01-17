@@ -1,7 +1,6 @@
 .QuizCheckBox {
   display: flex;
   width: 100%;
-  /* width: 25rem; */
   justify-content: center;
   margin-bottom: 1rem;
 }
@@ -25,4 +24,6 @@
 .QuizCheckBox .text_container h3 {
   color: black;
   line-height: 0.5rem;
+  white-space: nowrap;
+  font-size: 1rem;
 }

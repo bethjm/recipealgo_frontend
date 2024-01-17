@@ -1,17 +1,15 @@
 // import "./RecipeIngredients.css";
+import React from "react";
 
-function RecipeIngredients({ listIngredients }) {
-  if (listIngredients == 10) {
+function RecipeIngredients({ listIngredients, children }) {
+  if (listIngredients === 10) {
     return (
       <div className="RecipeIngredients">
         <div className="RecipeIngredients_Container">
           <ul>
-            <li>Mushroom</li>
-            <li>Chickpeas</li>
-            <li>Beans</li>
-            <li>Kidney beans</li>
-            <li>Lima beans</li>
-            <li>Edamame</li>
+            {React.Children.map(children, (child, index) => (
+              <li key={index}>{child}</li>
+            ))}
           </ul>
         </div>
       </div>
@@ -20,14 +18,13 @@ function RecipeIngredients({ listIngredients }) {
     return (
       <div className="RecipeIngredients">
         <div className="RecipeIngredients_Container">
-          <h3>Mushroom, Chickpeas,Beans, Kidney beans, Lima beans, Edemame</h3>
+          {React.Children.map(children, (child, index) => (
+            <li key={index}>{child}</li>
+          ))}
         </div>
       </div>
     );
   }
-  // add conditional rendering here
-  //if card render list on one line
-  //id readrecipe, render in list
 }
 
 export default RecipeIngredients;

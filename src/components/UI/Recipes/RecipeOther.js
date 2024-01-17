@@ -1,11 +1,11 @@
 // import "./RecipeOther.css";
 
-function RecipeOther() {
+function RecipeOther({ children }) {
   // hook up restful routes
   return (
     <div className="RecipeOther">
       <div className="RecipeOther_Container">
-        <h3>Begginer, Crock Pot, Breakfast</h3>
+        <h3>{children}</h3>
       </div>
     </div>
   );

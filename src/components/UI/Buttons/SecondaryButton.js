@@ -1,9 +1,9 @@
 import "./SecondaryButton.css";
 
-function SecondaryButton() {
+function SecondaryButton({ children }) {
   return (
     <div className="SecondaryButton_Container">
-      <h1>Continue</h1>
+      <h2>{children}</h2>
     </div>
   );
 }

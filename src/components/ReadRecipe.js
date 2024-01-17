@@ -20,7 +20,7 @@ function ReadRecipe() {
         </div>
       </div>
       <div id="for_mobile">
-        <PrimaryButton />
+        <PrimaryButton>Back</PrimaryButton>
       </div>
     </div>
   );

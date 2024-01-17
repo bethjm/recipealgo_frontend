@@ -8,7 +8,9 @@ function LandingPage() {
       <div className="LandingPage_Container">
         <h1>Welcome to ingredient IQ</h1>
         <h3>Press continue button to find recipes</h3>
-        <PrimaryButton />
+        <a href="/quiz">
+          <PrimaryButton>Continue</PrimaryButton>
+        </a>
       </div>
     </div>
   );

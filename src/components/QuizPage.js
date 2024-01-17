@@ -5,6 +5,7 @@ import QuizTextInputBox from "./UI/Quiz/QuizTextInputBox";
 import QuizCheckBox from "./UI/Quiz/QuizCheckBox";
 
 function QuizPage({ recipes }) {
+  console.log("recipes from Quiz", recipes);
   return (
     <div className="QuizPage">
       <div className="QuizPage_Container">

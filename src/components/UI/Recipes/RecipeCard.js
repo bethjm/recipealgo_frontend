@@ -8,9 +8,9 @@ function RecipeCard() {
   return (
     <div className="RecipeCard">
       <div className="RecipeCard_Container">
-        <RecipeHeader />
-        <RecipeOther />
-        <RecipeIngredients />
+        <RecipeHeader>holding</RecipeHeader>
+        <RecipeOther>holding</RecipeOther>
+        <RecipeIngredients>holding</RecipeIngredients>
       </div>
     </div>
   );

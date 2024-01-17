@@ -1,10 +1,11 @@
+import React from "react";
 import "./PrimaryButton.css";
 
-function PrimaryButton() {
+function PrimaryButton({ children }) {
   return (
     <div className="PrimaryButton">
       <div className="PrimaryButton_Container">
-        <h2>Back</h2>
+        <h2>{children}</h2>
       </div>
     </div>
   );
