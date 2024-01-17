@@ -32,6 +32,6 @@
   }
 
   #for_mobile {
-    display: inline;
+    display: block;
   }
 }

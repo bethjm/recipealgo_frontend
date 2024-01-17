@@ -19,7 +19,9 @@ function ReadRecipe() {
           <RecipeInstructions />
         </div>
       </div>
-      <PrimaryButton id="for_mobile" />
+      <div id="for_mobile">
+        <PrimaryButton />
+      </div>
     </div>
   );
 }
