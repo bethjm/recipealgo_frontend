@@ -40,10 +40,11 @@ function App() {
   return (
     <div className="App" id="App">
       <Router>
-        {/* <nav>
-        // have this only render if not on quiz page
+        <nav>
+          {/* // have this only render if not on quiz page */}
+          {/* if on quiz page do not show nav bar to quiz page */}
           <Link to="/">Quiz</Link>
-        </nav> */}
+        </nav>
         <Routes>
           <Route path="/" element={<QuizPage />} />
           <Route path="/recipes" element={<ListOfRecipes />} />
